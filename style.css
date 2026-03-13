@@ -936,12 +936,15 @@ nav {
     }
 
     .hero-visual {
-        opacity: 0.1;
+        background-image: url('assets/landscape_14.png');
+        background-size: cover;
+        background-position: center;
+        filter: grayscale(100%);
+        opacity: 0.2;
     }
 
     .floating-img {
-        width: 200px;
-        height: 280px;
+        display: none;
     }
 
     .gallery-header {
