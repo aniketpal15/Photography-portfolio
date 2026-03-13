@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Environment Variables (Crucial for security)
+.env
+.env.local
+
+# Build outputs
+dist/
+build/
+
+# Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+.vercel
